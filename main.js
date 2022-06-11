@@ -34,7 +34,6 @@ function activateMenuAtCurrentSection(section) {
   menuElement.classList.remove('active')
   if (sectionBoundaries) {
     menuElement.classList.add('active')
-    console.log('Seção atual: ', menuElement)
   }
 
 }
